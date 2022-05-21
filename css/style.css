@@ -11,7 +11,8 @@
 .container {
   max-width: 400px;
   margin: 10vh auto 0 auto;
-  box-shadow: 0px 0px 43px 17px rgba(150, 200, 175, 1);
+  border: 3px solid grey;
+  border-radius: 10px;
 }
 
 h1 {
@@ -39,6 +40,9 @@ h1 {
 
 .button {
   border: 0.5px solid rgba(150, 200, 175, 1);
+  border-radius: 50%;
+  background-color: grey;
+  color: white;
   line-height: 100px;
   text-align: center;
   font-size: 25px;
@@ -46,14 +50,21 @@ h1 {
 }
 
 .button:hover {
-  background-color: aqua;
+  background-color: orange;
   color: white;
   transition: 0.65 ease-in-out;
 }
-
 #equal {
-  background-color: aquamarine;
+  background-color: orange;
   color: white;
+}
+.symbol {
+  background-color: orange;
+  color: white;
+}
+.topsymbol {
+  background-color: lightgrey;
+  color: black;
 }
 
 /******************************************
